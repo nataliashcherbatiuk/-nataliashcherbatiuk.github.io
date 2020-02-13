@@ -1,0 +1,62 @@
+
+header {
+    background-color: white;
+    padding-top:66px;
+    text-align: center;
+    height: 108px;
+    text-transform: uppercase; 
+    color:#898f99;
+    font-family: Montserrat;
+}
+#title {
+    color: #0ec8cb;
+    font-size: 48px;
+}
+
+div {
+    font-size: 12px;
+}
+
+main {  padding:  150px;
+        font-family: 'PT Sans', sans-serif;
+        
+}
+.icon { text-align: center;
+    
+        font-size: 0;
+       
+    
+}
+section {
+    display:inline-block;
+    text-align:center;
+    padding: 35px;
+    overflow: hidden;
+    border: solid 1px #c6c3c3;
+    height: 425px;
+    width: 200px;
+    background-color: #f7f7f7;
+}
+.box:hover {
+    background-color: #0ec8cb;
+    color: #fff;
+}
+
+.box:hover path {
+    fill: #fff;
+}
+
+.box p {
+    font-size: 14px;
+   
+}
+
+h2 {
+    font-size: 21px;
+    padding: 35px;
+}
+svg{
+    width: 69px;
+    height: 69px;
+    padding: 30px;
+}
