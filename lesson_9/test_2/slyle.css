@@ -1,0 +1,118 @@
+@font-face {
+    font-family: "Proxima";
+    src: url(/fonts/Proxima/Nova) format("opentype");
+    src: url(/fonts/Playfair_Display/OFL.txt) format("opentype");
+    src: url(/fonts/futura-pt-heavy.otf) format("opentype");
+    src: url(/fonts/georgia-2-cufonfonts/georgia.ttf) format("truetyre");
+}
+* {
+    margin: 0;
+}
+body {
+    background-color: #464f54;
+}
+.content {
+    position: relative;
+    margin-left: 17%;
+}
+.imput {
+    background-color: rgb(24, 24, 24);
+    box-shadow: -3.536px -3.536px 59px 0px rgba(0, 0, 0, 0.16);
+    position: absolute;
+    left: 324px;
+    top: 47px;
+    width: 876px;
+    height: 187px;
+    z-index: 21;
+}
+.bar {
+    background-color: rgb(251, 192, 45);
+    box-shadow: -3.536px -3.536px 59px 0px rgba(0, 0, 0, 0.16);
+    position: absolute;
+    left: 388px;
+    top: 234px;
+    width: 810px;
+    height: 76px;
+    z-index: 6;
+    display: flex;
+    align-items: center;
+}
+.text {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 35px 0px rgba(0, 0, 0, 0.22);
+    position: absolute;
+    left: 70px;
+    top: 149px;
+    width: 1060px;
+    height: 800px;
+    z-index: 2;
+    margin-bottom: 200px;
+}
+
+.imput p {
+    font-size: 48px;
+    font-family: "PlayfairDisplay";
+    color: rgb(254, 254, 254);
+    margin-top: 11px;
+    margin-left: 64px;
+}
+h2 {
+    font-size: 15px;
+    font-family: "Proxima Nova";
+    color: rgb(118, 118, 118);
+    text-transform: uppercase;
+    margin-top: 50px;
+    margin-left: 64px;
+    letter-spacing: 1em;
+}
+
+h1 {
+    font-size: 99.675px;
+    font-family: "FuturaPT";
+    color: rgb(42, 42, 42);
+    text-transform: uppercase;
+}
+.data {
+    font-size: 30.674px;
+    font-family: "Proxima Nova";
+    color: rgb(180, 180, 180);
+    text-transform: uppercase;
+}
+
+li {
+    display: inline-block;
+    border-bottom: none;
+    margin: 11px;
+    width: 34px;
+}
+li png {
+    height: 17px;
+    margin-right: 17px;
+}
+.new {
+    background-color: #e8ebed;
+    width: 2px;
+    height: 100%;
+    margin-left: 68px;
+    display: inline-block;
+}
+.text1 {
+    position: absolute;
+    top: 197px;
+    margin-left: 54px;
+}
+.main {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    color: black;
+    font-size: 20px;
+    margin-bottom: 10px;
+    line-height: 30px;
+    margin-top: 30px;
+}
+
+.italic {
+    font-size: 30px;
+    font-family: "Georgia";
+    color: rgb(143, 143, 143);
+    font-style: italic;
+}

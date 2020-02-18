@@ -1,0 +1,72 @@
+@font-face {
+    font-family: "Lato";
+    src: url(/fonts/Playfair_Display/OFL.txt) format("opentype");
+    src: url(/fonts/Lato/Lato-Bold.ttf) format("opentype");
+    src: url(/fonts/Lato/Lato-Light.ttf) format("opentype");
+    src: url(/fonts/Lato/Lato-LightItalic.ttf) format("opentype");
+}
+.container {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 4px 68px 0px rgba(0, 0, 0, 0.1);
+    top: 130px;
+    width: 1400px;
+    height: 940px;
+    margin: 35px;
+    margin-top: 35px;
+    padding: 125px;
+    padding-top: 105px;
+    box-sizing: border-box;
+}
+h1 {
+    font-size: 42px;
+    font-family: "PlayfairDisplay";
+    color: rgb(23, 23, 23);
+    line-height: 1.2;
+    text-align: left;
+}
+p {
+    font-size: 18px;
+    font-family: "Lato";
+    color: rgba(23, 23, 23, 0.702);
+    line-height: 30px;
+    margin-bottom: 5px;
+    font-weight: lighter;
+}
+
+p:nth-of-type(1)::first-letter {
+    font-size: 110px;
+    font-family: "PlayfairDisplay";
+    color: rgba(23, 23, 23, 0.702);
+    float: left;
+    margin-right: 20px;
+    margin-top: 30px;
+}
+
+button {
+    border-color: rgb(234, 162, 88);
+    border-style: solid;
+    width: 260px;
+    height: 64px;
+    font-family: "lato";
+    font-size: 18px;
+    font-family: "Lato";
+    color: rgb(234, 162, 88);
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 30px;
+    background-color: white;
+}
+
+.text {
+    font-size: 24px;
+    font-family: "Lato";
+    font-style: Italic;
+}
+.letter {
+    font-size: 40px;
+    font-family: "Lato";
+    font-style: Italic;
+}
+button :hover {
+    background-color: rgb(234, 162, 88);
+}
