@@ -9,7 +9,7 @@ body {
 }
 
 .contact {
-    background-image: url(/img.jpg);
+    background-image: url(img.jpg);
     height: 866px;
     background-repeat: no-repeat;
     background-size: cover;
