@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    border: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,700&display=swap");
+
+body {
+    font-family: "Raleway";
+    background-image: url(/img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Raleway";
+}
+
+.Services {
+    display: flex;
+    margin-top: 179px;
+    max-height: 790px;
+}
+
+.Servises__icon {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+    margin-bottom: 20px;
+}
+
+.onlineshopping {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.5);
+    position: absolute;
+    width: 400px;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 70px;
+    padding-right: 29px;
+    font-family: "Raleway";
+    font-weight: 700;
+}
+
+.qualityproduct {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.5);
+    position: absolute;
+    width: 400px;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 75px;
+    padding-right: 29px;
+    font-family: "Raleway";
+    font-weight: 700;
+}
+
+.Domestic {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.5);
+    position: absolute;
+    width: 400px;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 40px;
+    font-family: "Raleway";
+    font-weight: 700;
+}
+
+.WellOrganized {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.5);
+    position: absolute;
+    width: 400px;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 82px;
+    padding-right: 29px;
+    font-family: "Raleway";
+    font-weight: 700;
+}
+
+h1 {
+    position: absolute;
+    right: 165px;
+    top: 45%;
+    transform: translateY(-50%);
+    z-index: 1;
+    font-size: 90px;
+    color: white;
+}
